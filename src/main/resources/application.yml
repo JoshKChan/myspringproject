@@ -1,0 +1,11 @@
+spring:
+  profiles: default
+name: default-YAML
+greeting: "HOW-DEEfault"
+
+---
+
+spring:
+  profiles: test
+name: test-YAML
+greeting: "HOW-DEE-test"
